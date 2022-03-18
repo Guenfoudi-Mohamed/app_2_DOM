@@ -3,7 +3,7 @@
 body{margin: 0px auto;min-height: 100vh; background-image: linear-gradient(45deg,rgb(175, 95, 21) 0%,rgb(175, 95, 21) 25%,orange 25%,orange 75%,rgb(175, 95, 21) 75%, rgb(175, 95, 21) 100%);}
 body section{width: 700px; min-height: 400px;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%); border: 2px solid #000;border-radius: 10px;display: flex;justify-content: center;align-items: center;background-color: #fff;}
 body section .container{width: 640px;position: relative; overflow: hidden;}
-body section .container .boxs{width:calc(640px * 3);display: flex;position: relative;}
+body section .container .boxs{width:calc(640px * 3);display: flex;position: relative;transform: translateX(0px);}
 body section .container .box{min-width: 640px;padding: 0px 5px;}
 body section .container .box img{width: 90px;height: 90px;border-radius: 50%;display: block;margin:0px auto}
 body section .container .icon{display:block;margin: 0px auto;width: fit-content;margin-top: 15px;font-size: 35px;color: rgb(153, 74, 0);}
